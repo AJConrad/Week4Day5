@@ -13,13 +13,11 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
-
-- (void)saveContext;
-- (NSURL *)applicationDocumentsDirectory;
-
+//Data Arrays
+@property (nonatomic, strong)           NSMutableArray              *precinctArray;
+@property (nonatomic, strong)           NSMutableArray              *barArray;
+@property (nonatomic, strong)           NSMutableArray              *crimeArray;
+//add more data arrays here
 
 @end
 

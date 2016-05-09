@@ -11,9 +11,14 @@
 		493FD83D1CDBC9BA00046AD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FD83C1CDBC9BA00046AD8 /* AppDelegate.m */; };
 		493FD8401CDBC9BA00046AD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FD83F1CDBC9BA00046AD8 /* ViewController.m */; };
 		493FD8431CDBC9BA00046AD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493FD8411CDBC9BA00046AD8 /* Main.storyboard */; };
-		493FD8461CDBC9BA00046AD8 /* CrimeMapper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 493FD8441CDBC9BA00046AD8 /* CrimeMapper.xcdatamodeld */; };
 		493FD8481CDBC9BA00046AD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493FD8471CDBC9BA00046AD8 /* Assets.xcassets */; };
 		493FD84B1CDBC9BA00046AD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493FD8491CDBC9BA00046AD8 /* LaunchScreen.storyboard */; };
+		493FD8531CDBC9CF00046AD8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493FD8521CDBC9CF00046AD8 /* MapKit.framework */; };
+		493FD8561CDBCD0100046AD8 /* Annotations.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FD8551CDBCD0100046AD8 /* Annotations.m */; };
+		493FD8591CDBD1DE00046AD8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FD8581CDBD1DE00046AD8 /* Reachability.m */; };
+		493FD85C1CDBD23F00046AD8 /* Precinct.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FD85B1CDBD23F00046AD8 /* Precinct.m */; };
+		493FD85F1CDCF45100046AD8 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FD85E1CDCF45100046AD8 /* Bar.m */; };
+		493FD8621CDD126900046AD8 /* Crime.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FD8611CDD126900046AD8 /* Crime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +29,20 @@
 		493FD83E1CDBC9BA00046AD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		493FD83F1CDBC9BA00046AD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		493FD8421CDBC9BA00046AD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		493FD8451CDBC9BA00046AD8 /* CrimeMapper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrimeMapper.xcdatamodel; sourceTree = "<group>"; };
 		493FD8471CDBC9BA00046AD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		493FD84A1CDBC9BA00046AD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		493FD84C1CDBC9BA00046AD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		493FD8521CDBC9CF00046AD8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		493FD8541CDBCD0100046AD8 /* Annotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotations.h; sourceTree = "<group>"; };
+		493FD8551CDBCD0100046AD8 /* Annotations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotations.m; sourceTree = "<group>"; };
+		493FD8571CDBD1DE00046AD8 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		493FD8581CDBD1DE00046AD8 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		493FD85A1CDBD23F00046AD8 /* Precinct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Precinct.h; sourceTree = "<group>"; };
+		493FD85B1CDBD23F00046AD8 /* Precinct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Precinct.m; sourceTree = "<group>"; };
+		493FD85D1CDCF45100046AD8 /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar.h; sourceTree = "<group>"; };
+		493FD85E1CDCF45100046AD8 /* Bar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bar.m; sourceTree = "<group>"; };
+		493FD8601CDD126900046AD8 /* Crime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crime.h; sourceTree = "<group>"; };
+		493FD8611CDD126900046AD8 /* Crime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Crime.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				493FD8531CDBC9CF00046AD8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +60,7 @@
 		493FD82C1CDBC9BA00046AD8 = {
 			isa = PBXGroup;
 			children = (
+				493FD8521CDBC9CF00046AD8 /* MapKit.framework */,
 				493FD8371CDBC9BA00046AD8 /* CrimeMapper */,
 				493FD8361CDBC9BA00046AD8 /* Products */,
 			);
@@ -64,11 +81,20 @@
 				493FD83C1CDBC9BA00046AD8 /* AppDelegate.m */,
 				493FD83E1CDBC9BA00046AD8 /* ViewController.h */,
 				493FD83F1CDBC9BA00046AD8 /* ViewController.m */,
+				493FD8601CDD126900046AD8 /* Crime.h */,
+				493FD8611CDD126900046AD8 /* Crime.m */,
+				493FD85D1CDCF45100046AD8 /* Bar.h */,
+				493FD85E1CDCF45100046AD8 /* Bar.m */,
+				493FD85A1CDBD23F00046AD8 /* Precinct.h */,
+				493FD85B1CDBD23F00046AD8 /* Precinct.m */,
+				493FD8541CDBCD0100046AD8 /* Annotations.h */,
+				493FD8551CDBCD0100046AD8 /* Annotations.m */,
+				493FD8571CDBD1DE00046AD8 /* Reachability.h */,
+				493FD8581CDBD1DE00046AD8 /* Reachability.m */,
 				493FD8411CDBC9BA00046AD8 /* Main.storyboard */,
 				493FD8471CDBC9BA00046AD8 /* Assets.xcassets */,
 				493FD8491CDBC9BA00046AD8 /* LaunchScreen.storyboard */,
 				493FD84C1CDBC9BA00046AD8 /* Info.plist */,
-				493FD8441CDBC9BA00046AD8 /* CrimeMapper.xcdatamodeld */,
 				493FD8381CDBC9BA00046AD8 /* Supporting Files */,
 			);
 			path = CrimeMapper;
@@ -153,10 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				493FD8561CDBCD0100046AD8 /* Annotations.m in Sources */,
+				493FD85F1CDCF45100046AD8 /* Bar.m in Sources */,
+				493FD8621CDD126900046AD8 /* Crime.m in Sources */,
 				493FD8401CDBC9BA00046AD8 /* ViewController.m in Sources */,
-				493FD8461CDBC9BA00046AD8 /* CrimeMapper.xcdatamodeld in Sources */,
 				493FD83D1CDBC9BA00046AD8 /* AppDelegate.m in Sources */,
 				493FD83A1CDBC9BA00046AD8 /* main.m in Sources */,
+				493FD8591CDBD1DE00046AD8 /* Reachability.m in Sources */,
+				493FD85C1CDBD23F00046AD8 /* Precinct.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,19 +339,6 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		493FD8441CDBC9BA00046AD8 /* CrimeMapper.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				493FD8451CDBC9BA00046AD8 /* CrimeMapper.xcdatamodel */,
-			);
-			currentVersion = 493FD8451CDBC9BA00046AD8 /* CrimeMapper.xcdatamodel */;
-			path = CrimeMapper.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 493FD82D1CDBC9BA00046AD8 /* Project object */;
 }
